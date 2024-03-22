@@ -33,9 +33,9 @@ func Signup(c *gin.Context) {
 			"login":    SignUpTemp.Login,
 			"password": Hashed,
 		})
-		c.JSON(200,"Success")
+		c.JSON(200, "Success")
 	}
-	
+
 }
 func Login(c *gin.Context) {
 	var LoginTemp structs.SignUpStruct

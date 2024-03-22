@@ -1,4 +1,5 @@
 package structs
+
 type SignUpStruct struct {
 	Id       string `bson:"_id"`
 	Name     string
@@ -6,9 +7,9 @@ type SignUpStruct struct {
 	Login    string
 	Password string
 }
-type SearchMusic struct{
-	Id       string `bson:"_id"`
-	Name string
+type SearchMusic struct {
+	Id     string `bson:"_id"`
+	Name   string
 	Author string
-	Date string
+	Date   string
 }
